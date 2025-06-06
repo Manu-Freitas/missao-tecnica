@@ -63,5 +63,16 @@ let inventarioAlpha = [
   console.log("Item removido:" , itemRemovido);
 
 
+  let artefatoRemovido = inventarioBeta.pop();
+
+  console.log("Depois do pop");
+  console.table(inventarioBeta)
+
+  console.log("Artefato removido:" , artefatoRemovido);
+
+
+ 
+  
+
 
 
