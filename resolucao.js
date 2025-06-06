@@ -54,110 +54,63 @@ let inventarioAlpha = [
     ["Terminal de Dobra", "Alpha Centauri", 10500]
   ];
   
-
-  let itemRemovido = inventarioAlpha.pop();
+/*
+  let itemAlphaRemovido = inventarioAlpha.pop();
 
   console.log("Depois do pop");
   console.table(inventarioAlpha);
 
-  console.log("Item removido:" , itemRemovido);
+  console.log("Item removido:" , itemAlphaRemovido);
 
-
-  let artefatoRemovido = inventarioBeta.pop();
+  let artefatoBetaRemovido = inventarioBeta.pop();
 
   console.log("Depois do pop");
-  console.table(inventarioBeta)
+  console.table(inventarioBeta);
 
-  console.log("Artefato removido:" , artefatoRemovido);
+  console.log("Artefato Removido:" , artefatoBetaRemovido);
 
-
-  inventarioAlpha.push(["Selo da insulação" , "Terra" , "3500" ]);
-  inventarioAlpha.push(["Golden Troup" , "Terra" , "1450"]);
-  inventarioAlpha.push(["Chama pálida" , "Terra" , "5200"]);
+  inventarioAlpha.push(["Golden Troup", "Terra", "11200"]);
+  inventarioAlpha.push(["Selo da insulação", "Terra", "5400"]);
+  inventarioAlpha.push(["Além-vida Cinábrio" ,"Terra" , "40000"]);
  
    console.log("Depois do push");
    console.table(inventarioAlpha);
  
- 
-   inventarioBeta.push(["Globos de nuvem" , "Kepler" , "4300"]);
-   inventarioBeta.push(["Pó de kepler" , "Kepler" , "1900"]);
-
-   console.log("Depois do push");
-   console.table(inventarioBeta);
-
-
-   let itemAlphaRemovidos = inventarioAlpha.splice(22);
-
-   console.log("Depois do splice");
-   console.table(inventarioAlpha);
-
-   
-   inventarioAlpha.unshift(["Relógio Quântico", "Terra", 5000]);
-
-   console.log("Depois do unshift");
-   console.table(inventarioAlpha);
-
-
-   let itemBetaRemovidos = inventarioBeta.splice(19);
-
-   console.log("Depois do splice");
-   console.table(inventarioBeta);
-
-   
-   inventarioBeta.unshift(["Canhão de Luz", "Vênus", 6800]);
-
-   console.log("Depois do unshift");
-   console.table(inventarioBeta);
-
-
-   inventarioAlpha.unshift(["cajado de luz", "Netuno", 7200]);
-
-console.log("Depois do unshift");
-console.table(inventarioAlpha);
-
-
-inventarioBeta.push(["Globo de nuvem" , "Kepler" , "4300"]);
-   inventarioBeta.push(["Pó de kepler" , "Kepler" , "1900"]);
-
-   console.log("Depois do push");
-   console.table(inventarioBeta);
-
-
-   let itemAlphaRemovido = inventarioAlpha.splice(22);
-
-   console.log("Depois do splice");
-   console.table(inventarioAlpha);
-
-   
-   inventarioAlpha.unshift(["Relógio Quântico", "Terra", "5000"]);
-
-   console.log("Depois do unshift");
-   console.table(inventarioAlpha);
-
-
-   let itemBetaRemovido = inventarioBeta.splice(19);
-
-   console.log("Depois do splice");
-   console.table(inventarioBeta);
-
-   
-   inventarioBeta.unshift(["Canhão de Luz", "Vênus", 6800]);
-
-   console.log("Depois do unshift");
-   console.table(inventarioBeta);
-
-
-   inventarioAlpha.unshift(["cajado de luz", "Netuno", 7200]);
-
-console.log("Depois do unshift");
-console.table(inventarioAlpha);
-
-
-
-
+   inventarioBeta.push(["Visão do Olho Humano", "Kepler", "15781"]);
+   inventarioBeta.push(["Contribuições para a Astronomia", "Kepler", "5416"]);
   
+    console.log("Depois do push");
+    console.table(inventarioBeta);
+  
+    let itemRemovidoAlpha = inventarioAlpha.splice(4);
+
+    console.log("Depois do splice");
+    console.table(inventarioAlpha);
 
 
+    inventarioAlpha.unshift(["Flor de Andrômeda", "Andrômeda", "13000"]);
+
+    console.log("Depois do unshift");
+    console.table(inventarioAlpha);
+    
+    let itemBetaRemovido = inventarioBeta.splice(6);
+
+    console.log("Depois do splice");
+    console.table(inventarioBeta);
+    
+    inventarioBeta.unshift(["Chave de Portais", "Júpiter", 5900]);
+    
+        console.log("Depois do unshift");
+        console.table(inventarioBeta); */
+    
+        let artefatoIncorretoAlpha = inventarioAlpha.shift();
+
+        console.log("Depois do shift");
+        console.table(inventarioAlpha);
+        
+       
+        
+  
 
 
 
