@@ -143,7 +143,12 @@ let inventarioAlpha = [
         console.log(`Única estrtutura Alpha e Beta: ${unicaEstrutura}`);
         console.table(unicaEstrutura);
 
-        
+        let cincoPrimeirosItensAlpha = inventarioAlpha.slice(0,5);
+        let cincoPrimeirosItensBeta = inventarioBeta.slice(0,5);
+        let primeirosItensCadaNava = cincoPrimeirosItensAlpha.concat(cincoPrimeirosItensBeta);
+
+        console.log(`Os cinco primeiros itens de cada nave: ${primeirosItensCadaNava}`);
+        console.table(primeirosItensCadaNava);
 
         
         
