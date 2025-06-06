@@ -121,6 +121,13 @@ let inventarioAlpha = [
         console.log(`A nova lista com os 5 primeiros itens beta: ${novaLista}`)
         console.table(novaLista)
         
+
+        let novaListaAlpha = inventarioAlpha.slice(13,23);
+
+        console.log(`Os 10 últimos itens do intervalo Alpha: ${novaListaAlpha}`);
+        console.table(novaListaAlpha)
+
+        
         
   
 
