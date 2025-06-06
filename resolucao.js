@@ -114,6 +114,12 @@ let inventarioAlpha = [
         console.table(inventarioBeta);
         
         console.log(`nomes dos 10 primeiros itens da beta: ${inventarioBeta.slice(0,10)}`);
+
+
+        let novaLista = inventarioBeta.slice(0,5);
+
+        console.log(`A nova lista com os 5 primeiros itens beta: ${novaLista}`)
+        console.table(novaLista)
         
         
   
