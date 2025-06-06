@@ -147,7 +147,12 @@ inventarioBeta.push(["Globo de nuvem" , "Kepler" , "4300"]);
    console.table(inventarioBeta);
 
 
-  
+   inventarioAlpha.unshift(["cajado de luz", "Netuno", 7200]);
+
+console.log("Depois do unshift");
+console.table(inventarioAlpha);
+
+
 
 
   
