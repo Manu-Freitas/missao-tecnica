@@ -127,6 +127,13 @@ let inventarioAlpha = [
         console.log(`Os 10 últimos itens do intervalo Alpha: ${novaListaAlpha}`);
         console.table(novaListaAlpha)
 
+        let itemSubstituido = inventarioAlpha.splice(5,1);
+
+        console.log(`O item 5 foi substituido: ${itemSubstituido}`);
+        console.table(itemSubstituido);
+
+      
+
         
         
   
