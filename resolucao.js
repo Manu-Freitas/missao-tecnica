@@ -132,7 +132,11 @@ let inventarioAlpha = [
         console.log(`O item 5 foi substituido: ${itemSubstituido}`);
         console.table(itemSubstituido);
 
-      
+        let itensBetaRemovido = inventarioBeta.splice(11,12);
+
+        console.log(`Dois itens no meio do inventário Beta foram removidos: ${itensBetaRemovido}`);
+        console.table(itensBetaRemovido);
+        
 
         
         
