@@ -136,6 +136,13 @@ let inventarioAlpha = [
 
         console.log(`Dois itens no meio do inventário Beta foram removidos: ${itensBetaRemovido}`);
         console.table(itensBetaRemovido);
+
+
+        let unicaEstrutura = inventarioAlpha.concat(inventarioBeta);
+
+        console.log(`Única estrtutura Alpha e Beta: ${unicaEstrutura}`);
+        console.table(unicaEstrutura);
+
         
 
         
