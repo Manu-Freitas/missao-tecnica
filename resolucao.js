@@ -86,34 +86,8 @@ let inventarioAlpha = [
    console.table(inventarioBeta);
 
 
-   let itemAlphaRemovido = inventarioAlpha.splice(22);
+  
 
-   console.log("Depois do splice");
-   console.table(inventarioAlpha);
-
-   
-   inventarioAlpha.unshift(["Relógio Quântico", "Terra", "5000"]);
-
-   console.log("Depois do unshift");
-   console.table(inventarioAlpha);
-
-
-   let itemBetaRemovido = inventarioBeta.splice(19);
-
-   console.log("Depois do splice");
-   console.table(inventarioBeta);
-
-   
-   inventarioBeta.unshift(["Canhão de Luz", "Vênus", 6800]);
-
-   console.log("Depois do unshift");
-   console.table(inventarioBeta);
-
-
-   inventarioAlpha.unshift(["cajado de luz", "Netuno", 7200]);
-
-console.log("Depois do unshift");
-console.table(inventarioAlpha);
 
 
 
